@@ -1,0 +1,102 @@
+.wrap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.menu {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding: 4% 0 0 0;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+}
+
+.menu ul {
+    display: block;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 115px;
+}
+
+.menu li:first-child {
+    margin-left: 0px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    line-height: 24px;
+}
+
+.menu a:hover {
+    color: #0099ff;
+}
+
+.left_column {
+    display: inline-block;
+    width: 420px;
+    margin-right: 56px;
+}
+
+.left_column figure {
+    margin-left: 0;
+}
+
+.right_column {
+    display: inline-block;
+    width: 420px;
+}
+
+.right_column figure {
+    margin-left: 0;
+}
+
+figcaption {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+}
+
+.text {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.button {
+    display: block;
+    width: 162px;
+    height: 58px;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    background-color: #fff;
+}
