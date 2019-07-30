@@ -43,11 +43,12 @@
 .menu ul {
     margin: 0;
     padding: 0;
+    font-size: 0;
 }
 
 .menu li {
     display: inline-block;
-    margin: 40px 18px;
+    margin: 40px 18px 40px 0;
 }
 
 .menu a {
@@ -57,17 +58,12 @@
     font-weight: bold;
     text-transform: uppercase;
     line-height: 11px;
-    text-align: right;
     color: #000000;
 }
 
 .menu a:hover,
 .menu a:focus {
     color: #33cc99;
-}
-
-.menu li:first-child {
-    margin-left: 0;
 }
 
 .menu li:last-child {
@@ -97,8 +93,8 @@
     background-color: #1abc9c;
 }
 
-.name,
-.price {
+.goods_name,
+.goods_price {
     float: left;
     font-size: 18px;
     font-family: "Roboto";
@@ -109,18 +105,18 @@
     height: 40px;
 }
 
-.name {
+.goods_name {
     background-color: #323232;
     padding: 0px 56px 0px 12px;
 }
 
-.price {
+.goods_price {
     width: 54px;
     text-align: center;
     background-color: #8c8c8c;
 }
 
-.price::before {
+.goods_price::before {
     content: "\0024";
     color: rgb(255, 255, 255);
 }
@@ -142,23 +138,24 @@
     margin-bottom: 105px;
 }
 
-.goods li:hover .name {
+.goods li:hover .goods_name {
     background-color: #1abc9c;
 }
 
-.goods li:hover .price {
+.goods li:hover .goods_price {
     background-color: #7fd9c7;
 }
 
 
 /* NEWS */
 
-.news {}
+.news {
+    font-size: 0;
+}
 
 .news li {
     display: inline-block;
     list-style: none;
-    float: left;
     width: 350px;
     margin-right: 30px;
 }
