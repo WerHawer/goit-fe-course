@@ -77,8 +77,7 @@
 
 /*GOODS*/
 
-.name_section,
-.name_section_2 {
+.name_section {
     display: block;
     font-size: 48px;
     font-family: "Roboto";
@@ -89,17 +88,10 @@
     letter-spacing: -1px;
 }
 
-.name_section {
-    margin: 0 auto 90px;
-}
-
-.name_section_2 {
-    margin: 0 auto 80px;
-}
-
-.line {
+.name_section::after {
+    content: '';
     display: block;
-    margin: 32px auto 0;
+    margin: 32px auto 86px;
     height: 7px;
     width: 165px;
     background-color: #1abc9c;
@@ -185,7 +177,15 @@
     color: #555252;
     line-height: 26px;
     font-weight: 600;
-    margin-bottom: 11px;
+}
+
+.news_header::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 136px;
+    background-color: #4ec6ab;
+    margin: 11px 0 26px 0;
 }
 
 .news_artical {
@@ -208,12 +208,4 @@
     line-height: 26px;
     text-align: center;
     margin-bottom: 80px;
-}
-
-.line_2 {
-    display: inline-block;
-    height: 3px;
-    width: 136px;
-    background-color: #4ec6ab;
-    margin-bottom: 26px;
 }
