@@ -196,7 +196,7 @@ html {
 
 .news_header::after {
     content: "";
-    display: inline-block;
+    display: block;
     height: 3px;
     width: 136px;
     background-color: #4ec6ab;
