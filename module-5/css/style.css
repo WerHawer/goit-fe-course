@@ -89,6 +89,7 @@
         background-color: #000000;
         margin: 0 auto 100px;
         position: relative;
+        list-style: none;
     }
     
     .wrapper_slider img {
@@ -115,6 +116,7 @@
         background-position: center;
         margin-top: 3%;
         cursor: pointer;
+        border: none;
     }
     
     .slider_nav_left {
