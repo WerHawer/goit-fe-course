@@ -278,6 +278,7 @@
         background-color: transparent;
         position: absolute;
         z-index: 100;
+        cursor: pointer;
     }
     
     .ico_heart {
