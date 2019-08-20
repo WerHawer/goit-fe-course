@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 
-.wrapper-nav {
+.header-wrapp {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -340,6 +340,7 @@ body {
     line-height: 17px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .mail-input {
