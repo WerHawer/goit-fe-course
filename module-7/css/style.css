@@ -246,12 +246,12 @@ body {
     -o-border-radius: 5px;
 }
 
-.input:valid :required,
+.input:valid:required,
 .input-message:valid {
     outline: 2px solid #007f00;
 }
 
-input:invalid,
+input:invalid:required,
 .input-message:invalid {
     outline: 2px solid #ff0000;
 }
