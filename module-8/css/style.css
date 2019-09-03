@@ -69,16 +69,17 @@ html {
     text-align: center;
     padding: 9px 0;
     width: 85px;
-    border: 2px solid rgba(255, 255, 255, 0);
-    border-radius: 30px;
 }
 
 .login a {
     text-decoration: none;
     color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    padding: 9px 0;
 }
 
-.login li:hover {
+.login a:hover {
     border: 2px solid #ffffff;
     border-radius: 30px;
     -webkit-border-radius: 30px;
