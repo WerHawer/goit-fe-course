@@ -77,4 +77,7 @@
         .bottom-button {
             cursor: pointer;
         }
+        .people-card {
+            margin-bottom: 0;
+        }
     }
