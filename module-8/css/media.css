@@ -1,0 +1,80 @@
+    @media (min-width: 768px) {
+        /*  BANNER */
+        .banner {
+            min-height: 700px;
+            margin-bottom: 72px;
+        }
+        .header {
+            width: 79.43%;
+            display: flex;
+            flex-direction: row-reverse;
+            max-width: 942px;
+            min-height: 100px;
+            margin-bottom: 162px;
+        }
+        .login {
+            padding-top: 0;
+        }
+        .main-head {
+            margin: 0 auto 40px;
+            max-width: 478px;
+        }
+        .main-head-under {
+            max-width: 400px;
+            margin-bottom: 34px;
+        }
+        .upper-button {
+            width: 226px;
+        }
+        /* MAIN */
+        .wrapper {
+            width: 64%;
+            margin: 0 auto;
+        }
+        .second-head {
+            max-width: none;
+            margin-bottom: 32px;
+        }
+        .people-list {
+            width: 90%;
+            max-width: 599px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 39px;
+        }
+        .people-card {
+            margin-bottom: 57px;
+        }
+        .people-list :nth-child(4) {
+            order: 2;
+        }
+        .people-list :nth-child(2) {
+            order: 1;
+        }
+        .bottom-button {
+            width: 193px;
+        }
+        .margin-bottom {
+            margin-bottom: 0;
+        }
+    }
+    
+    @media (min-width: 1300px) {
+        /* BANNER */
+        .banner {
+            margin-bottom: 70px;
+        }
+        .wrapper {
+            width: 65.4%;
+        }
+        .people-list {
+            width: 100%;
+            max-width: none;
+        }
+        .upper-button,
+        .bottom-button {
+            cursor: pointer;
+        }
+    }

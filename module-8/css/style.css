@@ -67,7 +67,7 @@ html {
 
 .login li {
     text-align: center;
-    padding: 12px 0;
+    padding: 9px 0;
     width: 85px;
 }
 
@@ -111,7 +111,7 @@ html {
 }
 
 .upper-button {
-    min-width: 280px;
+    width: 280px;
     min-height: 40px;
     background-color: #ff4e50;
     color: #ffffff;
@@ -146,10 +146,6 @@ html {
     padding: 0 5px;
     margin-bottom: 27px;
     list-style: none;
-}
-
-.people-list :last-child {
-    margin-bottom: 0;
 }
 
 .people-list {
@@ -216,7 +212,7 @@ html {
 }
 
 .bottom-button {
-    min-width: 280px;
+    width: 280px;
     min-height: 40px;
     border: 2px solid #ff4e50;
     background-color: #ffffff;
