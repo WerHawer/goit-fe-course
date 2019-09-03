@@ -76,7 +76,7 @@ html {
     color: #ffffff;
     border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 30px;
-    padding: 9px 0;
+    padding: 9px 12px;
 }
 
 .login a:hover {
