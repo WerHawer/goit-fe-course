@@ -30,6 +30,9 @@ html {
     box-sizing: inherit;
 }
 
+
+/* BANNER */
+
 .banner {
     width: 100vw;
     min-height: 540px;
@@ -121,6 +124,9 @@ html {
     -o-border-radius: 30px;
 }
 
+
+/* MAIN */
+
 .wrapper {
     text-align: center;
 }
@@ -131,6 +137,7 @@ html {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 15px;
+    max-width: 260px;
 }
 
 .people-card {
