@@ -85,7 +85,7 @@
         }
     }
     
-    @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px) {
+    @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
         .banner {
             background-image: url(../img/bacground-img_x_2.jpg);
         }
