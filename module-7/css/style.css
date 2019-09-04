@@ -254,8 +254,8 @@ body {
     outline: 2px solid #007f00;
 }
 
-input:invalid:required,
-.input-message:invalid {
+input:invalid:required:focus,
+.input-message:invalid:focus {
     outline: 2px solid #ff0000;
 }
 
