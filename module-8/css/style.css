@@ -36,7 +36,7 @@ html {
 .banner {
     width: 100vw;
     min-height: 540px;
-    background-image: url(../img/fon.jpg);
+    background-image: url(../img/bacground-img-tablet.jpg);
     background-color: rgba(0, 0, 0, 0.2);
     background-size: cover;
     background-position: center;
@@ -124,6 +124,7 @@ html {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    cursor: pointer;
 }
 
 
@@ -225,4 +226,5 @@ html {
     -o-border-radius: 30px;
     color: #ff4e50;
     margin-bottom: 58px;
+    cursor: pointer;
 }
