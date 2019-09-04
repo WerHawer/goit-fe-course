@@ -1,5 +1,5 @@
     @media (min-width: 768px) {
-        /*  BANNER */
+        /*  BANNER 768*/
         .banner {
             min-height: 700px;
             margin-bottom: 72px;
@@ -27,7 +27,7 @@
         .upper-button {
             width: 226px;
         }
-        /* MAIN */
+        /* MAIN 768*/
         .wrapper {
             width: 64%;
             margin: 0 auto;
@@ -48,22 +48,22 @@
         .people-card {
             margin-bottom: 57px;
         }
-        .people-list :nth-child(4) {
+        .people-card:nth-child(4) {
             order: 2;
         }
-        .people-list :nth-child(2) {
+        .people-card:nth-child(2) {
             order: 1;
+        }
+        .people-card:nth-child(2n) {
+            margin-bottom: 0;
         }
         .bottom-button {
             width: 193px;
         }
-        .margin-bottom {
-            margin-bottom: 0;
-        }
     }
     
     @media (min-width: 1200px) {
-        /* BANNER */
+        /* BANNER 1200*/
         .banner {
             margin-bottom: 70px;
         }

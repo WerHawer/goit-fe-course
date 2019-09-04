@@ -151,6 +151,10 @@ html {
     list-style: none;
 }
 
+.people-card:last-child {
+    margin-bottom: 0;
+}
+
 .people-list {
     margin-bottom: 27px;
 }
