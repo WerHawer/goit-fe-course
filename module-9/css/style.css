@@ -128,10 +128,6 @@ html {
 
 /* MAIN */
 
-.wrapper {
-    /* text-align: center; */
-}
-
 .second-head {
     color: #333333;
     font-size: 22px;
@@ -150,7 +146,6 @@ html {
 }
 
 .people-list {
-    /* margin-bottom: 27px; */
     margin: auto;
 }
 
