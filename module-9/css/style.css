@@ -42,17 +42,23 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    margin-bottom: 69px;
 }
 
 .header {
-    max-width: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     min-height: 171px;
 }
 
 .login {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     width: 177px;
-    padding-top: 32px;
+    padding-top: 20px;
 }
 
 .login li {
@@ -90,6 +96,7 @@ html {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .main-head-under {
@@ -98,9 +105,12 @@ html {
     font-size: 18px;
     font-weight: 300;
     max-width: 217px;
+    text-align: center;
+    margin-bottom: 19px;
 }
 
 .upper-button {
+    margin: 0 auto;
     width: 280px;
     min-height: 40px;
     background-color: #ff4e50;
@@ -127,32 +137,30 @@ html {
     font-size: 22px;
     font-weight: 700;
     max-width: 260px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .people-card {
+    margin: 0 auto;
     width: 200px;
     padding: 0 5px;
+    margin-bottom: 27px;
     list-style: none;
-    margin-bottom: 30px;
 }
 
-
-/* .people-card:last-child {
-    margin-bottom: 0;
-} */
-
-
-/* .people-list {
-    margin-bottom: 27px;
-} */
+.people-list {
+    /* margin-bottom: 27px; */
+    margin: auto;
+}
 
 .people {
-    margin: 0 auto;
     position: relative;
 }
 
 .people-img {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 .people::after {
@@ -196,16 +204,20 @@ html {
 .people-who {
     color: #333333;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .peole-what {
     color: #666666;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
+    text-align: center;
 }
 
 .bottom-button {
+    display: block;
+    margin: 0 auto;
     width: 280px;
     min-height: 40px;
     border: 2px solid #ff4e50;
@@ -216,6 +228,6 @@ html {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     color: #ff4e50;
-    /* margin-bottom: 58px; */
+    margin-bottom: 58px;
     cursor: pointer;
 }
