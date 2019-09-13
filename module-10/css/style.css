@@ -38,7 +38,6 @@ html {
 
 .banner {
     width: 100%;
-    min-height: 100vh;
     height: 1000px;
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/bgr.jpg);
     background-position: center;
@@ -99,7 +98,7 @@ html {
     fill: #ffffff;
 }
 
-.head--cursive,
+.head-cursive,
 .head {
     display: block;
     margin: 0 auto;
@@ -112,19 +111,19 @@ html {
     font-weight: 700;
 }
 
-.head--cursive {
+.head-cursive {
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
 }
 
-.banner__head--cursive {
+.head-cursive--banner {
     font-size: 72px;
     max-width: 580px;
     margin-bottom: 42px;
     color: #ffffff;
 }
 
-.banner__head {
+.head--banner {
     font-size: 150px;
     max-width: 820px;
     margin-bottom: 124px;
@@ -148,21 +147,21 @@ html {
 
 /* SERVICES */
 
-.services__head--cursive,
-.team__head--cursive {
+.head-cursive--services,
+.head-cursive--team {
     font-size: 24px;
     color: #333333;
     margin-bottom: 23px;
 }
 
-.services__head,
-.team__head {
+.head--services,
+.head--team {
     color: #333333;
     font-size: 30px;
 }
 
-.services__head::after,
-.team__head::after {
+.head--services::after,
+.head--team::after {
     content: '';
     display: block;
     margin: 40px auto 66px;
@@ -171,7 +170,7 @@ html {
     background-color: #f38181;
 }
 
-.team__head::after {
+.head--team::after {
     margin-bottom: 46px;
 }
 
@@ -220,10 +219,6 @@ html {
 
 /* TEAM */
 
-.team {
-    width: 100%;
-}
-
 .team__about {
     display: block;
     margin: 0 auto;
@@ -262,11 +257,11 @@ html {
 .team-card__gradient {
     background-image: linear-gradient( 90deg, rgba(252, 227, 138, 0) 0%, rgba(243, 129, 129, 0) 100%);
     position: absolute;
+    left: 0;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 0;
-    top: 0;
     width: 380px;
     height: 470px;
     z-index: 1;
